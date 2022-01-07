@@ -2,7 +2,7 @@ import * as THREE from 'three'
 import {white, brown, orange, yellow} from './colors'
 import TetrahedronTwistedFace from './tetrahedronTwistedFace';
 
-export default class Tetrahedron extends THREE.Mesh {
+export default class Tetrahedron extends THREE.Group {
   constructor(size: number, rotation: number, translation: THREE.Vector2) {
     super()
 

@@ -21,7 +21,6 @@ export default class TetrahedronTwistedFace extends THREE.Mesh {
   }
 
   parametricGeometryFunction(u: number, v:number, target: THREE.Vector3) {   
-    console.log(u,v);
     const x=(this.A.x+u*(this.B.x-this.A.x))*(1-v) 
     const y=(this.A.y+u*(this.B.y-this.A.y))*(1-v)
     const z=this.A.z+v**3*(this.C.z-this.A.z)

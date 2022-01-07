@@ -3,7 +3,7 @@
 A three.js animation based on the wax tissue called "Cheri, ne me tourne pas le dos".
 
 ## Demo
-https://effe-ickx.github.io/threejs-starter
+https://effe-ickx.github.io/cheri-ne-me-tourne-pas-le-dos/dist/
 ## Setup
 Run this followed commands:
 

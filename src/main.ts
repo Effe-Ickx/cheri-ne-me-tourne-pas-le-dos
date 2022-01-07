@@ -3,5 +3,5 @@ import Renderer from './js/renderer'
 
 
 // const gui = new dat.GUI()
-const renderer =  new Renderer()
+const renderer =  new Renderer({antialias:true})
 
